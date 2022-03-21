@@ -26,6 +26,7 @@ public class JenkinsController {
 		if(dept.equals("ece")) {
 			list = Arrays.asList("Murugan", "Kabilan", "Conor");
 		}
+		System.out.println("Thank You");
 		return list.toString();
 	}
 }
