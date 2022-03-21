@@ -22,7 +22,7 @@ public class JenkinsController {
 	public String getStudentsByDept(@PathVariable("dept") String dept) {
 		
 		List<String> list=Arrays.asList("Arun", "Khabib", "Conor");
-		
+		System.out.println("Git");
 		if(dept.equals("ece")) {
 			list = Arrays.asList("Murugan", "Kabilan", "Conor");
 		}
