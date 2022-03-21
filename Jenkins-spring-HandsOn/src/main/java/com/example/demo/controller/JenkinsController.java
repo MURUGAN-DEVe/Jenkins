@@ -27,6 +27,7 @@ public class JenkinsController {
 			list = Arrays.asList("Murugan", "Kabilan", "Conor");
 		}
 		System.out.println("Thank You");
+		System.out.println("Thank You");
 		return list.toString();
 	}
 }
